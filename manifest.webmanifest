@@ -1,0 +1,17 @@
+{
+  "name": "Chăm Con – nhắc việc dị ứng & hen",
+  "short_name": "Chăm Con",
+  "description": "Nhắc vệ sinh phòng cuối tuần, kiểm tra nhiệt độ – độ ẩm và bôi kem dưỡng cho bé mỗi tối.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f3ee",
+  "theme_color": "#2a9d8f",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
