@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a9d8f">
+  <meta name="description" content="Nhắc vệ sinh phòng cuối tuần, kiểm tra nhiệt độ – độ ẩm và bôi kem dưỡng cho bé mỗi tối.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Chăm Con">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Chăm Con</title>
+</head>
+<body>
+  <main id="app" aria-live="polite"></main>
+  <nav class="nav" aria-label="Chuyển mục">
+    <button data-tab="today" class="active"><span class="ico">🌙</span>Hôm nay</button>
+    <button data-tab="weekend"><span class="ico">🧹</span>Cuối tuần</button>
+    <button data-tab="diary"><span class="ico">📓</span>Nhật ký</button>
+    <button data-tab="tips"><span class="ico">💡</span>Lời khuyên</button>
+    <button data-tab="settings"><span class="ico">⚙️</span>Cài đặt</button>
+  </nav>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
